@@ -116,7 +116,63 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="section-reservation"></section>
+        <section class="reservation" id="section-reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="reservation__form">
+            <fieldset class="reservetion__fieldset-container">
+              <label for="first-name" class="form__label">Nombre*</label>
+              <input
+                type="text"
+                class="form__input"
+                id="first-name"
+                name="first-name"
+                placeholder="Nombre"
+              />
+              <label for="commensal" class="form__label"
+                >Número de comensales*</label
+              >
+              <input
+                type="number"
+                min="1"
+                max="8"
+                step="1"
+                class="form__input"
+                id="commensal"
+                name="commensal"
+                placeholder="1-8"
+              />
+              <label for="date" class="form__label">Fecha y hora*</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date"
+                name="date"
+              />
+              <label for="email" class="form__label"
+                >Tu correo electrónico*</label
+              >
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+              />
+              <button type="submit" class="form__input form__input_el_buttom">
+                Reservar una mesa
+              </button>
+              <label for="checkbox" class="form__label">
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  id="checkbox"
+                  class="form__input form__input_el_checkbox"
+                />
+                Acepto los términos de uso</label
+              >
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer" id="section-contacts"></footer>
     </div>
