@@ -43,6 +43,11 @@
 .footer__social-heading {
   color: white;
   margin-bottom: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list {
@@ -50,7 +55,6 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  row-gap: 16px;
 }
 
 .footer__list-item {
@@ -60,16 +64,32 @@
 }
 
 .footer__social-link {
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  column-gap: 10px;
   text-decoration: none;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
   padding: 0;
   margin-top: 108px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
 }
