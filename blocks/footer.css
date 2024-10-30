@@ -1,0 +1,42 @@
+.footer {
+  background-color: #0a2850;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer__content {
+}
+
+.footer__logo {
+  z-index: 3;
+}
+
+.footer__circle {
+  position: absolute;
+  height: 340px;
+  width: 340px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  z-index: 2;
+  top: -128px;
+  left: -44px;
+}
+
+.footer__social {
+}
+
+.footer__social-heading {
+}
+
+.footer__list {
+}
+
+.footer__list-item {
+}
+
+.footer__social-link {
+}
+
+.footer__social-icon {
+}
